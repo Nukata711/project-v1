@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消息 - 瓷器社区</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="device-frame">
+        <!-- 状态栏 -->
+        <div class="status-bar">
+            <span>9:41</span>
+            <div>
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav-bar">
+            <h1>消息</h1>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="content">
+            <!-- 消息分类 -->
+            <div style="display: flex; margin-bottom: 20px; border-bottom: 1px solid #eee;">
+                <div style="flex: 1; text-align: center; padding: 12px; color: var(--primary-color); border-bottom: 2px solid var(--primary-color);">
+                    互动消息
+                </div>
+                <div style="flex: 1; text-align: center; padding: 12px; color: #666;">
+                    系统通知
+                </div>
+            </div>
+
+            <!-- 点赞消息 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" alt="用户头像" class="avatar">
+                    <div style="flex: 1; margin-left: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-weight: 500;">王大师</div>
+                            <div style="font-size: 12px; color: #999;">10分钟前</div>
+                        </div>
+                        <div style="font-size: 14px; color: #666; margin-top: 4px;">赞了你的作品《青花瓷鉴赏》</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评论消息 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="用户头像" class="avatar">
+                    <div style="flex: 1; margin-left: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-weight: 500;">李收藏家</div>
+                            <div style="font-size: 12px; color: #999;">30分钟前</div>
+                        </div>
+                        <div style="font-size: 14px; color: #666; margin-top: 4px;">评论了你的作品：这件青花瓷的纹饰非常精美！</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 关注消息 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61" alt="用户头像" class="avatar">
+                    <div style="flex: 1; margin-left: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-weight: 500;">张设计师</div>
+                            <div style="font-size: 12px; color: #999;">2小时前</div>
+                        </div>
+                        <div style="font-size: 14px; color: #666; margin-top: 4px;">关注了你</div>
+                    </div>
+                    <button class="btn" style="padding: 6px 12px; font-size: 12px;">回关</button>
+                </div>
+            </div>
+
+            <!-- 收藏消息 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" alt="用户头像" class="avatar">
+                    <div style="flex: 1; margin-left: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-weight: 500;">王大师</div>
+                            <div style="font-size: 12px; color: #999;">3小时前</div>
+                        </div>
+                        <div style="font-size: 14px; color: #666; margin-top: 4px;">收藏了你的作品《景德镇瓷器制作工艺》</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 分享消息 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="用户头像" class="avatar">
+                    <div style="flex: 1; margin-left: 12px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="font-weight: 500;">李收藏家</div>
+                            <div style="font-size: 12px; color: #999;">5小时前</div>
+                        </div>
+                        <div style="font-size: 14px; color: #666; margin-top: 4px;">分享了你的作品《青花瓷鉴赏》</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部标签栏 -->
+        <div class="tab-bar">
+            <a href="home.html" class="tab-item">
+                <i class="fas fa-home"></i>
+                <span>首页</span>
+            </a>
+            <a href="discover.html" class="tab-item">
+                <i class="fas fa-compass"></i>
+                <span>发现</span>
+            </a>
+            <a href="publish.html" class="tab-item">
+                <i class="fas fa-plus-square"></i>
+                <span>发布</span>
+            </a>
+            <a href="message.html" class="tab-item active">
+                <i class="fas fa-comment"></i>
+                <span>消息</span>
+            </a>
+            <a href="profile.html" class="tab-item">
+                <i class="fas fa-user"></i>
+                <span>我的</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人中心 - 瓷器社区</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="device-frame">
+        <!-- 状态栏 -->
+        <div class="status-bar">
+            <span>9:41</span>
+            <div>
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav-bar">
+            <h1>个人中心</h1>
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="content">
+            <!-- 用户信息卡片 -->
+            <div class="card" style="padding: 20px; text-align: center;">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" alt="用户头像" class="avatar" style="width: 80px; height: 80px; margin-bottom: 16px;">
+                <h2 style="margin: 0 0 8px 0;">王大师</h2>
+                <p style="margin: 0 0 16px 0; color: #666;">景德镇陶瓷工艺大师 | 收藏家</p>
+                <div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 16px;">
+                    <div style="text-align: center;">
+                        <div style="font-weight: 500;">128</div>
+                        <div style="font-size: 12px; color: #666;">作品</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-weight: 500;">2.4k</div>
+                        <div style="font-size: 12px; color: #666;">关注者</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-weight: 500;">356</div>
+                        <div style="font-size: 12px; color: #666;">关注中</div>
+                    </div>
+                </div>
+                <button class="btn" style="width: 100%;">编辑资料</button>
+            </div>
+
+            <!-- 功能列表 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <i class="fas fa-bookmark" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">我的收藏</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-heart" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">我的点赞</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-history" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">浏览历史</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+            </div>
+
+            <!-- 更多功能 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <i class="fas fa-store" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">我的店铺</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-wallet" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">我的钱包</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-ticket-alt" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">优惠券</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+            </div>
+
+            <!-- 设置列表 -->
+            <div class="card" style="padding: 0;">
+                <div class="list-item">
+                    <i class="fas fa-bell" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">消息通知</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-shield-alt" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">隐私设置</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+                <div class="list-item">
+                    <i class="fas fa-question-circle" style="color: #666; margin-right: 12px;"></i>
+                    <div style="flex: 1;">帮助与反馈</div>
+                    <i class="fas fa-chevron-right" style="color: #999;"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部标签栏 -->
+        <div class="tab-bar">
+            <a href="home.html" class="tab-item">
+                <i class="fas fa-home"></i>
+                <span>首页</span>
+            </a>
+            <a href="discover.html" class="tab-item">
+                <i class="fas fa-compass"></i>
+                <span>发现</span>
+            </a>
+            <a href="publish.html" class="tab-item">
+                <i class="fas fa-plus-square"></i>
+                <span>发布</span>
+            </a>
+            <a href="message.html" class="tab-item">
+                <i class="fas fa-comment"></i>
+                <span>消息</span>
+            </a>
+            <a href="profile.html" class="tab-item active">
+                <i class="fas fa-user"></i>
+                <span>我的</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html> 
